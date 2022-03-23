@@ -1,7 +1,30 @@
-.header  {
+*{
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+}
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    margin: 5px;
+  }
+
+  .header  {
   font-family: monospace;
   background: papayawhip;
-}
+  width: auto;
+  height: 70px;
+  justify-content: space-between;}
 
 .logo {
   font-size: 48px;
@@ -9,17 +32,32 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+ flex: 1 1 auto;
 }
 
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
-}
+.left-links{
+  display: flex;
+  
 
-a {
-  font-size: 22px;
-  background: white;
-  padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+  justify-content: flex-start;
+  flex: 1 2 auto;
+  align-items: center;
+ 
 }
+.right-links{
+  display: flex;
+ flex: 1 2 auto;
+
+  justify-content: flex-end;
+  align-items: center;
+
+}
+ 
+
+  
+ 
+
+
