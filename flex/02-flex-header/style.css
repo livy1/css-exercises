@@ -9,6 +9,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  
 }
   a {
     font-size: 22px;
@@ -24,7 +25,8 @@ ul {
   background: papayawhip;
   width: auto;
   height: 70px;
-  justify-content: space-between;}
+  justify-content: space-between;
+  align-items: center;}
 
 .logo {
   font-size: 48px;
@@ -34,28 +36,10 @@ ul {
   padding: 4px 32px;
   margin: 5px;
   justify-content: center;
-  align-items: center;
- flex: 1 1 auto;
-}
-
-.left-links{
-  display: flex;
-  
-
-  justify-content: flex-start;
-  flex: 1 2 auto;
-  align-items: center;
- 
-}
-.right-links{
-  display: flex;
- flex: 1 2 auto;
-
-  justify-content: flex-end;
-  align-items: center;
 
 }
- 
+
+
 
   
  
