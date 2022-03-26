@@ -86,9 +86,7 @@ button.cancel {
   flex-shrink: 0;
   margin: 15px;
 }
-button{
-  width: 100px;
-}
+
 .header{
   font-size:large;
 }
