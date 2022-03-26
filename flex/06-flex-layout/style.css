@@ -55,14 +55,17 @@ a{
 }
 
 .footer {
-  margin-top: auto;
-  margin-bottom: 0;
+  
   background-color: #eeeeee;
  
 }
 .content {
 
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
  
 }
 
@@ -70,7 +73,7 @@ a{
 body {
   display: flex;
   flex-direction: column;
-  text-align: center;
+
 
 }
 .buttons{
